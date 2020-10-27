@@ -1,0 +1,39 @@
+.home__section-container {
+  height: 100%;
+  width: 100%;
+  padding: 70px 70px;
+  .home__section-inner-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    
+    .home__section-box {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      width: 100%;
+      padding: 20px;
+      .home__section-header {
+
+        padding: 10px;
+        h1 {
+          padding: 10px;
+        }
+        p {
+          font-size: 1.1em;
+          padding: 10px;
+          width: 100%;
+        }
+      }
+      img {
+        width: 400px;
+      }
+    }
+  }
+}
