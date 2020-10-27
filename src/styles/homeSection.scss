@@ -4,35 +4,83 @@
   padding: 70px 70px;
   .home__section-inner-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-gap: 3em;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     justify-content: center;
     align-items: center;
     align-content: center;
     height: 100%;
     width: 100%;
+    position: relative;
     
     .home__section-box {
       height: 100%;
-      display: flex;
+      display: grid;
       justify-content: space-between;
       position: relative;
+      // overflow: hidden;
+      z-index: -1;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      
       width: 100%;
       padding: 20px;
-      .home__section-header {
-
-        padding: 10px;
-        h1 {
-          padding: 10px;
-        }
-        p {
-          font-size: 1.1em;
-          padding: 10px;
-          width: 100%;
-        }
+      p {
+        padding: 20px 0px;
+        height: 100px;
       }
-      img {
-        width: 400px;
+        
+        img {
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          width: 400px;
+          background-position: center;
+          background-size: cover;
+          margin-left: 10px;
+        }
+    }
+  }
+}
+
+
+// home section 2 styles
+.home__section-two-container {
+  padding: 70px 70px;
+  display: grid;
+  grid-row-gap: 20px;
+  width: 100%;
+  height: 100%;
+  .home__section-two-top-container {
+    .home__section-two-top-desc {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      align-content: center;
+      height: 200px;
+      p {
+        font-size: 1.1em;
+        padding: 20px 0px;
+        height: 100px;
+      }
+    
+    }
+  }
+  .home__section-two-bottom-container {
+    .home__section-two-bottom-desc {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      align-content: center;
+      height: 200px;
+      p {
+        font-size: 1.1em;
+        padding: 20px 0px;
+        height: 100px;
       }
     }
   }

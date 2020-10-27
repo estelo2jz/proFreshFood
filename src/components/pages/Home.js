@@ -1,7 +1,8 @@
 import React from 'react';
 import BG from '../../images/BG.jpeg';
 import {Link} from 'react-router-dom'
-import HomeSection from './Homefiles/HomeSection'
+import HomeSection from './Homefiles/HomeSection';
+import HomeSection2 from './Homefiles/HomeSection2';
 
 function Home() {
   return (
@@ -54,6 +55,7 @@ function Home() {
         </div>
         <div>
           <HomeSection />
+          <HomeSection2 />
         </div>
       </div>
     </div>

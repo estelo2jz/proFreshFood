@@ -81,3 +81,20 @@
     }
   }
 }
+
+@media only screen and (max-width: 700px) {
+  .home-container {
+    .home-inner-container {
+      .home-header {
+
+      }
+      .home-desc-flex {
+
+        .home-desc-box {
+          display: grid;
+
+        }
+      }
+    }
+  }
+}
