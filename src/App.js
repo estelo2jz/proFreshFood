@@ -37,7 +37,9 @@ function App() {
   return (
     <div>
       <Router>
-        <Navbar />
+        <div className="app-nav-container">
+          <Navbar />
+        </div>
         <LogoHeader />
         <Switch>
           <Route exact path="/"  component={Home}/>

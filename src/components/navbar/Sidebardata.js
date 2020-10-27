@@ -2,6 +2,11 @@ import React from 'react'
 import * as FaIcons from 'react-icons/fa';
 import * as AiIcons from 'react-icons/ai';
 import * as IoIcons from 'react-icons/io';
+import * as FcIcons from 'react-icons/fc';
+import * as GiIcons from 'react-icons/gi';
+import * as BsIcons from 'react-icons/bs';
+import * as BiIcons from 'react-icons/bi';
+import * as MdIcons from 'react-icons/md';
 
 export const SidebarData = [
   {
@@ -14,21 +19,21 @@ export const SidebarData = [
   {
     title: "About",
     path: "/about",
-    icon: <IoIcons.IoIosPaper />,
+    icon: <FcIcons.FcAbout />,
     cName: "nav-text",
 
   },
   {
     title: "Fruits",
     path: "/fruits",
-    icon: <FaIcons.FaCartPlus />,
+    icon: <GiIcons.GiFruitBowl />,
     cName: "nav-text",
 
   },
   {
     title: "Tropical Oil",
     path: "/tropicalOil",
-    icon: <FaIcons.FaCartPlus />,
+    icon: <GiIcons.GiOilySpiral />,
     cName: "nav-text",
 
   },
@@ -42,35 +47,35 @@ export const SidebarData = [
   {
     title: "Sustainability",
     path: "/sustainability",
-    icon: <FaIcons.FaEnvelopeOpenText />,
+    icon: <BsIcons.BsGraphUp />,
     cName: "nav-text",
 
   },
   {
     title: "News",
     path: "/news",
-    icon: <IoIcons.IoMdHelpCircle />,
+    icon: <BiIcons.BiNews />,
     cName: "nav-text",
 
   },
   {
     title: "Blog",
     path: "/blog",
-    icon: <AiIcons.AiFillHome />,
+    icon: <FaIcons.FaBlog />,
     cName: "nav-text",
 
   },
   {
     title: "Media Gallary",
     path: "/mediaGallary",
-    icon: <IoIcons.IoIosPaper />,
+    icon: <MdIcons.MdPermMedia />,
     cName: "nav-text",
 
   },
   {
     title: "Contact",
     path: "/contact",
-    icon: <FaIcons.FaCartPlus />,
+    icon: <AiIcons.AiFillContacts />,
     cName: "nav-text",
 
   },

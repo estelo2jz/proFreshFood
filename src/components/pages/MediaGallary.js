@@ -2,7 +2,7 @@ import React from 'react'
 
 function MediaGallary() {
   return (
-    <div>
+    <div className="mediagallary-container">
       <h1>MediaGallary</h1>
     </div>
   )

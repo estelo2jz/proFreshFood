@@ -1,6 +1,14 @@
 @import './home.scss';
 @import './about.scss';
 @import './logo.scss';
+@import './blog.scss';
+@import './fruits.scss';
+@import './contact.scss';
+@import './mediagallary.scss';
+@import './news.scss';
+@import './services.scss';
+@import './sustainability.scss';
+@import './tropicaloil.scss';
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
@@ -8,4 +16,8 @@
   margin: 0;
   padding: 0;
   font-family: 'Lato', sans-serif;
+}
+
+.app-nav-container {
+  position: fixed;
 }
