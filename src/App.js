@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import Logo from './images/logo.png';
+import Footer from './components/Footer';
 
 import Navbar from "./components/navbar/Navbar";
 import Home from "./components/pages/Home";
@@ -54,6 +55,7 @@ function App() {
           <Route path="/tropicalOil"  component={Tropical}/>
         </Switch>
       </Router>
+      <Footer />
     </div>
   );
 }

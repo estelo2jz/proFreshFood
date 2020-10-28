@@ -1,6 +1,6 @@
 import React from 'react';
 
-import BG1 from '../../../images/BG.jpeg';
+import BG1 from '../../../images/BG.png';
 
 const HomeSection = () => {
   return (

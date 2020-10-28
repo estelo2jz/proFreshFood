@@ -1,3 +1,5 @@
+$background: "https://images.pexels.com/photos/401213/pexels-photo-401213.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
+
 .home-container {
   display: flex;
   height: 100%;
@@ -5,9 +7,9 @@
   overflow: hidden;
   align-items: center;
   justify-content: center;
-  padding-left: 30px;
-  padding-right: 30px;
+
   .home-inner-container {
+    z-index: -1;
     height: 100%;
     width: 100%;
     .home-header {
@@ -17,10 +19,17 @@
       width: 100%;
       height: 100%;
       padding: 20px 0px;
+      background: #005C97;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #363795, #005C97);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #363795, #005C97); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
       h1 {
         width: 1000px;
         text-align: center;
         font-size: 3em;
+        color: rgb(255, 255, 255);
+        font-style: italic;
+        padding: 0px 20px;
       }
     }
     .home-desc-flex {
@@ -29,7 +38,24 @@
       width: 100%;
       height: 100%;
       padding: 50px 40px;
+      position: relative;
       grid-row-gap: 40px ;
+      // background: url('../images/envi.svg');
+      // background-repeat: no-repeat;
+      // background-position: center;
+      // background-size: 100% 100%;
+          /* The image used */
+      background-image: url($background);
+
+      /* Set a specific height */
+      min-height: 500px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -1000;
       .home-desc-box {
         z-index: -1000;
         position: relative;
@@ -39,6 +65,9 @@
         align-content: center;
         width: 100%;
         height: 100%;
+
+        background: rgba(0, 0, 0, 0.3);
+        box-shadow: 0 5px 20px rgba(0,0,0,0.5);
         .home-desc-summary {
           width: 100%;
           margin: 5px;
@@ -46,7 +75,7 @@
           text-align: center;
           p {
             
-            font-size: 1.1em;
+            font-size: 1.3em;
             line-height: 2em;
           }
         }
@@ -58,6 +87,7 @@
           margin: 5px;
           z-index: -1000;
           width: 100%;
+          border-radius: 5px;
           img {
             width: 500px;
 

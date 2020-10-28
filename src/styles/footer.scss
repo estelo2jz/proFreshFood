@@ -1,0 +1,31 @@
+.footer-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+
+  .footer-inner-container {
+    ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      li {
+        list-style: none;
+        height: 100%;
+        width: 100%;
+        a {
+          padding: 10px;
+          text-decoration: none;
+          color: rgb(0, 0, 0);
+          font-size: 2em;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+        }
+      }
+    }
+  }
+}
