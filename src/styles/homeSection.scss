@@ -42,12 +42,16 @@ $backgroundTwo: 'https://images.pexels.com/photos/3865544/pexels-photo-3865544.j
       align-content: center;
       background: rgba(0, 0, 0, 0.3);
       box-shadow: 0 5px 20px rgba(0,0,0,0.5);
-      
+      padding: 10px;
       width: 100%;
       padding: 20px;
+      h1 {
+        color: wheat;
+      }
       p {
         padding: 20px 0px;
         height: 100px;
+        font-size: 1.2em;
       }
         
         img {
@@ -57,7 +61,7 @@ $backgroundTwo: 'https://images.pexels.com/photos/3865544/pexels-photo-3865544.j
           width: 400px;
           background-position: center;
           background-size: cover;
-          margin-left: 10px;
+          padding: 0px 10px;
         }
     }
   }
@@ -79,7 +83,7 @@ $backgroundTwo: 'https://images.pexels.com/photos/3865544/pexels-photo-3865544.j
   background: url('../images/plane.svg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 60% 60%;
   // background: rgb(142, 165, 143);
   .home__section-two-top-container {
     display: flex;
@@ -96,16 +100,20 @@ $backgroundTwo: 'https://images.pexels.com/photos/3865544/pexels-photo-3865544.j
       height: 100%;
       width: 500px;
       h1 {
-        height: 150px;
+        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
+        color: wheat;
+        font-size: 2.5em;
+        padding: 10px;
 
       }
       p {
-        font-size: 1.1em;
+        font-size: 1.5em;
         padding: 20px 10px;
         height: 100%;
+        line-height: 2em;
       }
     
     }
@@ -125,15 +133,20 @@ $backgroundTwo: 'https://images.pexels.com/photos/3865544/pexels-photo-3865544.j
       height: 100%;
       width: 500px;
       h1 {
-        height: 150px;
+        height: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
+        color: wheat;
+        padding: 10px;
+
       }
       p {
-        font-size: 1.1em;
+        font-size: 1.5em;
         padding: 20px 10px;
         height: 100%;
+        line-height: 2em;
+
       }
     }
   }
@@ -238,7 +251,7 @@ $backgroundTwo: 'https://images.pexels.com/photos/3865544/pexels-photo-3865544.j
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
       height: 100%;
-      padding: 20px 0px;
+      padding: 20px 10px;
       width: 100%;
       border-radius: 5px;
       .home__section-news-p {
