@@ -26,7 +26,7 @@ import './styles/main.scss';
 function LogoHeader() {
   return (
     <div className="logo-header">
-      <div>
+      <div className="logo-image">
         <img src={Logo} alt="logo" />
       </div>
     </div>
