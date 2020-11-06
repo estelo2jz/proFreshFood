@@ -22,6 +22,7 @@ import Tropical from "./components/pages/TropicalOil";
 
 
 import './styles/main.scss';
+import ScrollToTop from './components/ScrollToTop';
 
 function LogoHeader() {
   return (
@@ -38,6 +39,7 @@ function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop />
         <div className="app-nav-container">
           <Navbar />
         </div>

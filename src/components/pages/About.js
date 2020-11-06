@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import AboutMain from './Aboutfiles/AboutMain';
 
 function About() {
   return (
-    <div className="about">
-      <h1>about</h1>
+    <div className="about-container">
+      <AboutMain />
     </div>
   )
 }
