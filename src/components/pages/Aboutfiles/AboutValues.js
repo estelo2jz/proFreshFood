@@ -9,7 +9,7 @@ import SolutionLogo from './logos/solution.svg';
 export default function AboutValues() {
   return (
     <div className="about__values-container">
-      <div className="about__values-innner">
+      <div className="about__values-inner">
         <h2>Our Values</h2>
       </div>
       {/* <div className="about__values-flexbox">
@@ -68,94 +68,96 @@ export default function AboutValues() {
           </p>
         </div>
       </div> */}
-    <div class="about__values-container">
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src={PerserveranceLogo} />
-            <h3>Perseverance</h3>
+    <div className="about__values-container">
+      <div className="about__values-flex">
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <img src={PerserveranceLogo} />
+              <h3>Perseverance</h3>
+            </div>
+          </div>
+          <div className="face face2">
+            <div className="content">
+              <p>
+                We are known for achieving what we set out to do. Our goals are high, as is our desire to achieve them through hard work and dedication.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="face face2">
-          <div class="content">
-            <p>
-              We are known for achieving what we set out to do. Our goals are high, as is our desire to achieve them through hard work and dedication.
-            </p>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <img src={GenerorityLogo} />
+              <h3>Generosity</h3>
+            </div>
+          </div>
+          <div className="face face2">
+            <div className="content">
+              <p>
+                We strive to help and improve the communities where we work and live.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src={GenerorityLogo} />
-            <h3>Generosity</h3>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <img src={GlobalLogo} />
+              <h3>Teamwork</h3>
+            </div>
+          </div>
+          <div className="face face2">
+            <div className="content">
+              <p>
+                Our organization is focused on commitment, leadership, responsibility, creativity, organization, harmony, friendship and cooperation among all our partners and collaborators.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="face face2">
-          <div class="content">
-            <p>
-              We strive to help and improve the communities where we work and live.
-            </p>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <img src={NoteLogo} />
+              <h3>Integrity</h3>
+            </div>
+          </div>
+          <div className="face face2">
+            <div className="content">
+              <p>
+                Authenticity, reliability and loyalty are all attributes found in our organization. We employ the highest ethical standards, demonstrating honesty and fairness in every action that we take.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src={GlobalLogo} />
-            <h3>Teamwork</h3>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <img src={ResLogo}/>
+              <h3>Responsibility</h3>
+            </div>
+          </div>
+          <div className="face face2">
+            <div className="content">
+              <p>
+              We are dedicated to satisfying our customers’ needs and honoring the commitments we have made to them by going that extra mile.
+              </p>
+            </div>
           </div>
         </div>
-        <div class="face face2">
-          <div class="content">
-            <p>
-              Our organization is focused on commitment, leadership, responsibility, creativity, organization, harmony, friendship and cooperation among all our partners and collaborators.
-            </p>
+        <div className="card">
+          <div className="face face1">
+            <div className="content">
+              <img src={SolutionLogo} />
+              <h3>Diligence</h3>
+            </div>
           </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src={NoteLogo} />
-            <h3>Integrity</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-            <p>
-              Authenticity, reliability and loyalty are all attributes found in our organization. We employ the highest ethical standards, demonstrating honesty and fairness in every action that we take.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src={ResLogo}/>
-            <h3>Responsibility</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-            <p>
-             We are dedicated to satisfying our customers’ needs and honoring the commitments we have made to them by going that extra mile.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="face face1">
-          <div class="content">
-            <img src={SolutionLogo} />
-            <h3>Diligence</h3>
-          </div>
-        </div>
-        <div class="face face2">
-          <div class="content">
-            <p>
-              We show pride, enthusiasm and dedication in everything that we do. We are committed to producing and delivering high quality products and services.
-            </p>
+          <div className="face face2">
+            <div className="content">
+              <p>
+                We show pride, enthusiasm and dedication in everything that we do. We are committed to producing and delivering high quality products and services.
+              </p>
+            </div>
           </div>
         </div>
       </div>

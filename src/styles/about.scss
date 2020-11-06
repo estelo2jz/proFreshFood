@@ -1,3 +1,5 @@
+$background: "https://images.pexels.com/photos/4954715/pexels-photo-4954715.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260";
+
 .about-container {
   display: flex;
   height: 100%;
@@ -6,35 +8,84 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 30px 40px;
+  // padding: 30px 40px;
 }
 .about__section-container {
   // background-color: red;
-  padding: 10px;
   display: flex;
   flex-direction: column;
   p {
     padding: 20px 0;
+    margin-left: 15px;
+    font-size: 1.1em;
+    line-height: 2em;
   }
   h2 {
     font-size: 3em;
   }
+  h3 {
+    padding: 10px 0;
+    font-size: 2em;
+
+  }
   ul {
+    padding: 20px 0;
+    padding-left: 5px;
   }
   li {
     list-style: none;
     padding: 5px 0;
+    font-size: 1.1em;
+    line-height: 2em;
   }
   li::before {
     content: '-';
     padding: 0 10px;
   }
+  .about__section  {
+      /* The image used */
+  background-image: url("https://images.pexels.com/photos/2237485/pexels-photo-2237485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+  /* Set a specific height */
+  min-height: 100%; 
+  padding: 50px 20px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .about__section-inner {
+  padding: 30px 40px;
+  }
+
+  
 }
 
 .about__main-container {
   display: flex;
   flex-direction: column;
   grid-row-gap: 100px;
+}
+
+.about__values-inner {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/3082340/pexels-photo-3082340.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+
+    /* Set a specific height */
+    min-height: 100%; 
+    min-width: 100%;
+    padding: 50px 20px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2 {
+      font-size: 3em;
+    }
 }
 
 
@@ -78,14 +129,23 @@
 
 .about__values-container {
   width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+    // padding: 30px 40px;
     grid-gap: 100px;
     h2 {
-      font-size: 2em;
+      font-size: 3em;
       text-transform: uppercase;
+    }
+    .about__values-flex {
+      grid-gap: 20px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
     }
     .about__values-container .card {
       position: relative;
