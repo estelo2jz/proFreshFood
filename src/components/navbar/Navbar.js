@@ -108,9 +108,9 @@ function Navbar() {
                 </div>
               );
             })}
-            <div className="navbar__active-logo">
+            {/* <div className="navbar__active-logo">
               <img src={Logo} alt="logo" />
-            </div>
+            </div> */}
           </ul>
         </nav>
       </IconContext.Provider>

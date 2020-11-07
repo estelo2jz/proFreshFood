@@ -5,6 +5,7 @@
   padding: 20px 20px;
   // background-color: white;
   width: 100%;
+  z-index: -1000;
 
   .footer-certi {
     display: grid;
@@ -22,6 +23,7 @@
       flex-direction: row;
 
       .footer-logo-container {
+        
   
       }
       .footer-logo {
@@ -35,6 +37,8 @@
 
   .footer-inner-container {
     height: 100%;
+    z-index: -1000;
+
     // padding: 10px;
     ul {
       display: grid;
@@ -67,6 +71,7 @@
           align-content: center;
           padding: 4px;
           margin: 4px;
+
         }
       }
     }
