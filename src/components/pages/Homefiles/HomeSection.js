@@ -12,14 +12,14 @@ const HomeSection = () => {
             <p>
               We care about the welfare of our workers and their families.
             </p>
-            <img src={BG1} />
+            <img src="https://picsum.photos/500?random=4" />
         </div>
         <div className="home__section-box">
             <h1>Comminity Development</h1>
             <p>
               We strive to improve the quality of life of nearby communities.
             </p>
-            <img src={BG1} />
+            <img src="https://picsum.photos/500?random=5" />
 
         </div>
         <div className="home__section-box">
@@ -28,7 +28,7 @@ const HomeSection = () => {
             <p>
               We care about conserving the environment.
             </p>
-            <img src={BG1} />
+            <img src="https://picsum.photos/500?random=6" />
 
         </div>
         <div className="home__section-box">
@@ -36,7 +36,7 @@ const HomeSection = () => {
             <p>
               We strive to operate in a responsible and sustainable manner.
             </p>
-            <img src={BG1} />
+            <img src="https://picsum.photos/500?random=7" />
 
         </div>
       </div>

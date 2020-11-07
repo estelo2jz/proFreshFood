@@ -16,7 +16,7 @@ export default class HomeSectionNews extends Component {
               </p>
             </div>
             <div className="home__section-news-image">
-              <img src={BG2} />
+              <img src="https://picsum.photos/500?random=8" />
             </div>
           </div>
           <div className="home__section-news-bx">
@@ -26,7 +26,7 @@ export default class HomeSectionNews extends Component {
               </p>
             </div>
             <div className="home__section-news-image">
-              <img src={BG2} />
+              <img src="https://picsum.photos/500?random=9" />
             </div>
           </div>
           <div className="home__section-news-bx">
@@ -36,7 +36,7 @@ export default class HomeSectionNews extends Component {
               </p>
             </div>
             <div className="home__section-news-image">
-              <img src={BG2} />
+              <img src="https://picsum.photos/500?random=10" />
             </div>
           </div>
           <div className="home__section-news-bx">
@@ -46,7 +46,7 @@ export default class HomeSectionNews extends Component {
               </p>
             </div>
             <div className="home__section-news-image">
-              <img src={BG2} />
+              <img src="https://picsum.photos/500?random=11" />
             </div>
           </div>
         </div>

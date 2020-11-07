@@ -8,6 +8,10 @@ $background: "https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?a
   align-items: center;
   justify-content: center;
 
+  p {
+    font-size: 1.1em !important;
+  }
+
   .home-inner-container {
     z-index: -1;
     height: 100%;
@@ -60,7 +64,7 @@ $background: "https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?a
         z-index: -1000;
         position: relative;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         align-content: center;
         width: 100%;
@@ -72,11 +76,11 @@ $background: "https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?a
         .home-desc-summary {
           width: 100%;
           margin: 5px;
-          padding: 10px;
+          padding: 20px;
           text-align: center;
           p {
             
-            font-size: 1.3em;
+            font-size: 1.1em;
             line-height: 2em;
           }
         }
@@ -116,14 +120,58 @@ $background: "https://images.pexels.com/photos/886521/pexels-photo-886521.jpeg?a
   .home-container {
     .home-inner-container {
       .home-header {
-
+        font-size: 0.6em;
       }
       .home-desc-flex {
-
         .home-desc-box {
           display: grid;
 
+          .home-desc-summary {
+            font-size: 0.8em;
+
+          }
+          .home-desc-image {
+            img {
+              width: 300px;
+              padding: 20px;
+            }
+          }
+
         }
+      }
+      .home-bottom-summary {
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .home-container {
+    .home-inner-container {
+      width: 100%;
+      .home-header {
+        font-size: 0.3em;
+      }
+      .home-desc-flex {
+        .home-desc-box {
+          display: grid;
+
+          .home-desc-summary {
+            font-size: 0.8em;
+
+          }
+          .home-desc-image {
+            img {
+              width: 200px;
+              padding: 20px;
+            }
+          }
+
+        }
+      }
+      .home-bottom-summary {
+        font-size: 0.8em;
       }
     }
   }

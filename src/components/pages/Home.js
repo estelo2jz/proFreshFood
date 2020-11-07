@@ -12,7 +12,7 @@ function Home() {
         <div className="home-header">
           <h1>
             Beyond just planting a seed…
-            we contribute to a better future
+            we contribute to a better future<br />
             FOR OUR PEOPLE AND THE ENVIRONMENT
           </h1>
         </div>
@@ -25,12 +25,12 @@ function Home() {
             </div>
 
             <div className="home-desc-image">
-              <img src={BG} alt='logo' />
+              <img src="https://picsum.photos/500?random=1" alt='logo' />
             </div>
           </div>
           <div className="home-desc-box">
             <div className="home-desc-image">
-              <img src={BG} alt='logo' />
+              <img src="https://picsum.photos/500?random=2" alt='logo' />
             </div>
             <div className="home-desc-summary">
               <p>
@@ -45,7 +45,7 @@ function Home() {
               </p>
             </div>
             <div className="home-desc-image">
-              <img src={BG} alt='logo' />
+              <img src="https://picsum.photos/500?random=3" alt='logo' />
             </div>
           </div>
         </div>
